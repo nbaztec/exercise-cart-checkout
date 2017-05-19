@@ -1,0 +1,21 @@
+{
+  "name": "checkout",
+  "version": "1.0.0",
+  "description": "CLI code",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "$(npm bin)/mocha tests/**/*.test.js",
+    "test-coverage": "$(npm bin)/istanbul cover _mocha -- tests/**/*.test.js"
+  },
+  "author": "",
+  "license": "GNU GPLv3",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.1"
+  }
+}
